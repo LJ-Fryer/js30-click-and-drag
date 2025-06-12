@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  background: url("https://source.unsplash.com/NFs6dRTBgaM/2000x2000") fixed;
+  background: url("./color-graphic.jpg") fixed;
   background-size: cover;
 }
 
@@ -42,8 +42,7 @@ body {
 .items.active {
   background: rgba(255, 255, 255, 0.3);
   cursor: grabbing;
-  cursor: -webkit-grabbing;
-  transform: scale(1);
+  transform: scale(1.02);
 }
 
 .item {
@@ -53,8 +52,8 @@ body {
   align-items: center;
   justify-content: center;
   font-size: 80px;
-  font-weight: 100;
-  color: rgba(0, 0, 0, 0.15);
+  font-weight: 300;
+  color: rgba(0, 0, 0, 0.6);
   box-shadow: inset 0 0 0 10px rgba(0, 0, 0, 0.15);
 }
 
